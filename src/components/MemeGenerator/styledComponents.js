@@ -70,7 +70,7 @@ export const ImgDiv = styled.div`
 `
 export const Text = styled.p`
   font-family: 'Roboto';
-  font-size: ${props => props.size};
+  font-size: ${props => props.size}px;
   color: white;
   font-weight: bold;
 `

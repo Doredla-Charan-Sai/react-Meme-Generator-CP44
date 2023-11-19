@@ -136,7 +136,7 @@ class MemeGenerator extends Component {
             </Select>
             <Button type="submit">Generate</Button>
           </Form>
-          {topTxt !== '' &&
+          {/* {topTxt !== '' &&
           bottomTxt !== '' &&
           fontSizeTxt !== '' &&
           urlTxt !== '' ? (
@@ -144,11 +144,11 @@ class MemeGenerator extends Component {
               <Text size={fontSizeTxt}>{topTxt}</Text>
               <Text size={fontSizeTxt}>{bottomTxt}</Text>
             </ImgDiv>
-          ) : null}
-          {/* <ImgDiv img={urlTxt} data-testid="meme">
+          ) : null} */}
+          <ImgDiv img={urlTxt} data-testid="meme">
             <Text size={fontSizeTxt}>{topTxt}</Text>
             <Text size={fontSizeTxt}>{bottomTxt}</Text>
-          </ImgDiv> */}
+          </ImgDiv>
         </FormDiv>
       </Div>
     )
